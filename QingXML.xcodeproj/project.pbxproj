@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043035BE171E8A5900D2E27E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043035BD171E8A5900D2E27E /* UIKit.framework */; };
+		043035C0171E8A5900D2E27E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043035BF171E8A5900D2E27E /* Foundation.framework */; };
+		043035C2171E8A5900D2E27E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043035C1171E8A5900D2E27E /* CoreGraphics.framework */; };
+		043035C8171E8A5900D2E27E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043035C6171E8A5900D2E27E /* InfoPlist.strings */; };
+		043035CA171E8A5900D2E27E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043035C9171E8A5900D2E27E /* main.m */; };
+		043035CE171E8A5900D2E27E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043035CD171E8A5900D2E27E /* AppDelegate.m */; };
+		043035D0171E8A5900D2E27E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 043035CF171E8A5900D2E27E /* Default.png */; };
+		043035D2171E8A5900D2E27E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043035D1171E8A5900D2E27E /* Default@2x.png */; };
+		043035D4171E8A5900D2E27E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043035D3171E8A5900D2E27E /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043035B9171E8A5900D2E27E /* QingXML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QingXML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043035BD171E8A5900D2E27E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		043035BF171E8A5900D2E27E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		043035C1171E8A5900D2E27E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		043035C5171E8A5900D2E27E /* QingXML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QingXML-Info.plist"; sourceTree = "<group>"; };
+		043035C7171E8A5900D2E27E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		043035C9171E8A5900D2E27E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043035CB171E8A5900D2E27E /* QingXML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QingXML-Prefix.pch"; sourceTree = "<group>"; };
+		043035CC171E8A5900D2E27E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043035CD171E8A5900D2E27E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043035CF171E8A5900D2E27E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		043035D1171E8A5900D2E27E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		043035D3171E8A5900D2E27E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043035B6171E8A5900D2E27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043035BE171E8A5900D2E27E /* UIKit.framework in Frameworks */,
+				043035C0171E8A5900D2E27E /* Foundation.framework in Frameworks */,
+				043035C2171E8A5900D2E27E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043035AE171E8A5900D2E27E = {
+			isa = PBXGroup;
+			children = (
+				043035C3171E8A5900D2E27E /* QingXML */,
+				043035BC171E8A5900D2E27E /* Frameworks */,
+				043035BA171E8A5900D2E27E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043035BA171E8A5900D2E27E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043035B9171E8A5900D2E27E /* QingXML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043035BC171E8A5900D2E27E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043035BD171E8A5900D2E27E /* UIKit.framework */,
+				043035BF171E8A5900D2E27E /* Foundation.framework */,
+				043035C1171E8A5900D2E27E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		043035C3171E8A5900D2E27E /* QingXML */ = {
+			isa = PBXGroup;
+			children = (
+				043035CC171E8A5900D2E27E /* AppDelegate.h */,
+				043035CD171E8A5900D2E27E /* AppDelegate.m */,
+				043035C4171E8A5900D2E27E /* Supporting Files */,
+			);
+			path = QingXML;
+			sourceTree = "<group>";
+		};
+		043035C4171E8A5900D2E27E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043035C5171E8A5900D2E27E /* QingXML-Info.plist */,
+				043035C6171E8A5900D2E27E /* InfoPlist.strings */,
+				043035C9171E8A5900D2E27E /* main.m */,
+				043035CB171E8A5900D2E27E /* QingXML-Prefix.pch */,
+				043035CF171E8A5900D2E27E /* Default.png */,
+				043035D1171E8A5900D2E27E /* Default@2x.png */,
+				043035D3171E8A5900D2E27E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043035B8171E8A5900D2E27E /* QingXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043035D7171E8A5900D2E27E /* Build configuration list for PBXNativeTarget "QingXML" */;
+			buildPhases = (
+				043035B5171E8A5900D2E27E /* Sources */,
+				043035B6171E8A5900D2E27E /* Frameworks */,
+				043035B7171E8A5900D2E27E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QingXML;
+			productName = QingXML;
+			productReference = 043035B9171E8A5900D2E27E /* QingXML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043035B0171E8A5900D2E27E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = XmL;
+			};
+			buildConfigurationList = 043035B3171E8A5900D2E27E /* Build configuration list for PBXProject "QingXML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 043035AE171E8A5900D2E27E;
+			productRefGroup = 043035BA171E8A5900D2E27E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043035B8171E8A5900D2E27E /* QingXML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043035B7171E8A5900D2E27E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043035C8171E8A5900D2E27E /* InfoPlist.strings in Resources */,
+				043035D0171E8A5900D2E27E /* Default.png in Resources */,
+				043035D2171E8A5900D2E27E /* Default@2x.png in Resources */,
+				043035D4171E8A5900D2E27E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043035B5171E8A5900D2E27E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043035CA171E8A5900D2E27E /* main.m in Sources */,
+				043035CE171E8A5900D2E27E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		043035C6171E8A5900D2E27E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043035C7171E8A5900D2E27E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043035D5171E8A5900D2E27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043035D6171E8A5900D2E27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043035D8171E8A5900D2E27E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QingXML/QingXML-Prefix.pch";
+				INFOPLIST_FILE = "QingXML/QingXML-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		043035D9171E8A5900D2E27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QingXML/QingXML-Prefix.pch";
+				INFOPLIST_FILE = "QingXML/QingXML-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043035B3171E8A5900D2E27E /* Build configuration list for PBXProject "QingXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043035D5171E8A5900D2E27E /* Debug */,
+				043035D6171E8A5900D2E27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043035D7171E8A5900D2E27E /* Build configuration list for PBXNativeTarget "QingXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043035D8171E8A5900D2E27E /* Debug */,
+				043035D9171E8A5900D2E27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043035B0171E8A5900D2E27E /* Project object */;
+}
